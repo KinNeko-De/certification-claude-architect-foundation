@@ -12,4 +12,5 @@
 | Better version of links.md | https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD | ❌ | TODO |
 
 # Courses
+- https://anthropic.skilljar.com/
 - https://anthropic.skilljar.com/claude-code-in-action
