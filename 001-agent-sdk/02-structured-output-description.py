@@ -12,14 +12,15 @@ async def main():
     async for message in query(
         prompt="What is the capital of france?",
         options=ClaudeAgentOptions(
-            # model="claude-haiku-4-5",
+            # model="claude-haiku-4-5", # Outputs in the result, that he outputed structured output. The summary contains a long text. Sonnet on the other hand output result separated from summary, it understands better what a summary is.
             allowed_tools=["Bash", "Glob"],
             output_format= {
                     "type": "json_schema", 
                     "schema": {
                         "type": "object",
                         "properties": {
-                            "summary": {"type": "string"},
+                            "summary": {"type": "string", "description": "1 sentence that answers the question directly. DO NOT provide more context"}, # description leads to better unterstanding for haiku, for Sonnet it affects that the result field is filled with summary, context and question also
+                            "result" : {"type" : "string", "description": "text response to the user. provide 1-2 additional context or facts related to the question"},  # description leads to better unterstanding for haiku, for Sonnet it affects that the result field is filled with summary, context and question also
                             "questions_to_user": {"type": "array", "items": {"type": "string"},  "description": "Ask the user 1-3 questions related to the user input"},
                         },
                         "required": ["summary", "questions_to_user"],
