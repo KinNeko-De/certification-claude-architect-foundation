@@ -8,6 +8,7 @@
 | Playbook by a user | https://drive.google.com/file/d/1luC0rnrET4tDYtS7xe5jUxMDZA-4qNf-/view?usp=sharing | ✅ | Some copy and paste error, content needs to be validated |
 | Mock certification  | https://claude-certified-architect-mock-exam-cyberskill.vercel.app/ | ❌ | TODO |
 | Mock certification | https://findskill.ai/degrees/claude-certified-architect-prep/ | ❌ | TODO |
+| Mock certification | https://claudecertificationguide.com/ | ❌ | TODO |
 | Memory and claude instruction | https://code.claude.com/docs/en/memory | ❌ | TODO |
 | Better version of links.md | https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD | ❌ | TODO |
 
