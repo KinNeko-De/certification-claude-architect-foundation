@@ -10,7 +10,7 @@ from claude_agent_sdk import query, ClaudeAgentOptions
 
 async def main():
     async for message in query(
-        prompt="What fis the capital of france?",
+        prompt="Help me plan a trip to Paris departing May 15, 2026?",
         options=ClaudeAgentOptions(
             # model="claude-haiku-4-5",
             allowed_tools=["Bash", "Glob"],
