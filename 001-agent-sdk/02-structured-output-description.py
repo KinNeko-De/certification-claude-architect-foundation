@@ -12,7 +12,7 @@ async def main():
     async for message in query(
         prompt="What is the capital of france?",
         options=ClaudeAgentOptions(
-            # model="claude-haiku-4-5", # Outputs in the result, that he outputed structured output. The summary contains a long text. Sonnet on the other hand output result separated from summary, it understands better what a summary is.
+            # model="claude-haiku-4-5", # Outputs in the result, that he outputed structured output..
             allowed_tools=["Bash", "Glob"],
             output_format= {
                     "type": "json_schema", 
