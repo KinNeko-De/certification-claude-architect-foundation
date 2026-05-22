@@ -45,7 +45,9 @@ options = ClaudeAgentOptions(
 
 async def main():
     async with ClaudeSDKClient(options=options) as client:
-        await client.query("- I am an employee of your company. I want to know how many percentage of application was accepted in 2024 ")
+        year = "2024"
+        # year = "2023"
+        await client.query(f"I want to know how many percentage of application was accepted in {year} ")
 
         # Extract and print response
         async for message in client.receive_response():
