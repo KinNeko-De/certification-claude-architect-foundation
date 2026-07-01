@@ -9,7 +9,7 @@
 | Overview | https://claudecertifications.com/claude-certified-architect |  ✅ | Inofficial, Link collection |
 | 12 week plan | https://claudecertifications.com/claude-certified-architect/study-guide | ✅ | Inofficial, Bullet points only, detailed plan maybe hidded because we are not partner yet | 
 | Mock certification  | https://claude-certified-architect-mock-exam-cyberskill.vercel.app/ | ❌ | TODO |
-| Mock certification | https://findskill.ai/degrees/claude-certified-architect-prep/ | ❌ | TODO |
+| Mock certification | https://ccaf.cyberskill.world/ https://findskill.ai/degrees/claude-certified-architect-prep/ | ❌ | TODO |
 | Mock certification | https://claudecertificationguide.com/ | ❌ | Only a copy of the anthropic site? They have only 25 questions |
 | Memory and claude instruction | https://code.claude.com/docs/en/memory | ❌ | TODO |
 | Better version of links.md | https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD | ❌ | TODO |
