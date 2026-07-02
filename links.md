@@ -13,6 +13,7 @@
 | Mock certification | https://claudecertificationguide.com/ | ❌ | Only a copy of the anthropic site? They have only 25 questions |
 | Memory and claude instruction | https://code.claude.com/docs/en/memory | ❌ | TODO |
 | Better version of links.md | https://github.com/paullarionov/claude-certified-architect/blob/main/guide_en.MD | ❌ | TODO |
+| Mock exam | https://www.youtube.com/watch?v=PUnB9b6VIWk | ❌ | TODO |
 
 # Courses
 - https://anthropic.skilljar.com/
