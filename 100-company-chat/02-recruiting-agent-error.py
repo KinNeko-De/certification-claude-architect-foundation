@@ -115,7 +115,7 @@ server = create_sdk_mcp_server(
 mcpServerName = "recruiting"
 
 options = ClaudeAgentOptions(
-    model="claude-haiku-4-5",
+    model="claude-sonnet-4-6",
     mcp_servers={mcpServerName: server},
     allowed_tools=[f"mcp__{mcpServerName}__{toolName}"]
 )
